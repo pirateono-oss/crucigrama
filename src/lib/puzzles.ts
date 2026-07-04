@@ -109,7 +109,7 @@ export const puzzles: Puzzle[] = [
     title: 'Ciudades',
     date: '2026-06-27',
     width: 7,
-    height: 7,
+    height: 9,
     grid: [
       ['M', 'A', 'D', 'R', 'I', 'D', '.'],
       ['.', '.', '.', '.', 'O', '.', '.'],
@@ -256,6 +256,212 @@ export const puzzles: Puzzle[] = [
       { number: 1, clue: 'Enseña en la escuela, 5 letras' },
       { number: 2, clue: 'Construye edificios, 5 letras' },
       { number: 4, clue: 'Repara automóviles, 5 letras' },
+    ],
+  },
+  // Puzzle 11 - Cine 6x6
+  {
+    title: 'Cine',
+    date: '2026-07-03',
+    width: 6,
+    height: 6,
+    grid: [
+      ['.', '.', '.', '.', '.', '.'],
+      ['.', 'A', 'C', 'T', 'O', 'R'],
+      ['.', '.', 'I', '.', '.', '.'],
+      ['.', '.', 'N', '.', '.', '.'],
+      ['.', '.', 'E', '.', '.', '.'],
+      ['.', '.', '.', '.', '.', '.'],
+    ],
+    across: [
+      { number: 1, clue: 'Intérprete de películas, 5 letras' },
+    ],
+    down: [
+      { number: 2, clue: 'Sala donde se proyectan películas, 4 letras' },
+    ],
+  },
+  // Puzzle 12 - Deportes II 6x6
+  {
+    title: 'Deportes II',
+    date: '2026-07-04',
+    width: 6,
+    height: 6,
+    grid: [
+      ['.', '.', '.', '.', '.', '.'],
+      ['.', '.', '.', 'G', '.', '.'],
+      ['.', 'B', 'A', 'L', 'O', 'N'],
+      ['.', '.', '.', 'L', '.', '.'],
+      ['.', '.', '.', '.', '.', '.'],
+      ['.', '.', '.', '.', '.', '.'],
+    ],
+    across: [
+      { number: 2, clue: 'Esfera usada en deportes, 5 letras' },
+    ],
+    down: [
+      { number: 1, clue: 'Anotación en fútbol, 3 letras' },
+    ],
+  },
+  // Puzzle 13 - Viajes 5x5
+  {
+    title: 'Viajes',
+    date: '2026-07-05',
+    width: 5,
+    height: 5,
+    grid: [
+      ['.', '.', 'R', '.', '.'],
+      ['.', '.', 'U', '.', '.'],
+      ['H', 'O', 'T', 'E', 'L'],
+      ['.', '.', 'A', '.', '.'],
+      ['.', '.', '.', '.', '.'],
+    ],
+    across: [
+      { number: 2, clue: 'Alojamiento para viajeros, 5 letras' },
+    ],
+    down: [
+      { number: 1, clue: 'Camino o itinerario, 4 letras' },
+    ],
+  },
+  // Puzzle 14 - Ciencia 5x5
+  {
+    title: 'Ciencia',
+    date: '2026-07-06',
+    width: 5,
+    height: 5,
+    grid: [
+      ['.', '.', 'P', '.', '.'],
+      ['.', '.', 'E', '.', '.'],
+      ['M', 'A', 'S', 'A', '.'],
+      ['.', '.', 'O', '.', '.'],
+      ['.', '.', '.', '.', '.'],
+    ],
+    across: [
+      { number: 2, clue: 'Cantidad de materia, 4 letras' },
+    ],
+    down: [
+      { number: 1, clue: 'Fuerza ejercida por gravedad, 4 letras' },
+    ],
+  },
+  // Puzzle 15 - Cocina 7x6
+  {
+    title: 'Cocina',
+    date: '2026-07-07',
+    width: 7,
+    height: 6,
+    grid: [
+      ['.', '.', '.', '.', '.', '.', '.'],
+      ['.', '.', '.', '.', '.', '.', '.'],
+      ['.', '.', 'H', 'O', 'R', 'N', 'O'],
+      ['.', '.', '.', 'L', '.', '.', '.'],
+      ['.', '.', '.', 'L', '.', '.', '.'],
+      ['.', '.', '.', 'A', '.', '.', '.'],
+    ],
+    across: [
+      { number: 1, clue: 'Electrodoméstico de cocina, 5 letras' },
+    ],
+    down: [
+      { number: 2, clue: 'Recipiente para cocinar, 4 letras' },
+    ],
+  },
+  // Puzzle 16 - Historia 6x6
+  {
+    title: 'Historia',
+    date: '2026-07-08',
+    width: 6,
+    height: 6,
+    grid: [
+      ['C', 'O', 'R', 'O', 'N', 'A'],
+      ['.', '.', 'E', '.', '.', '.'],
+      ['.', '.', 'I', '.', '.', '.'],
+      ['.', '.', 'N', '.', '.', '.'],
+      ['.', '.', 'A', '.', '.', '.'],
+      ['.', '.', '.', '.', '.', '.'],
+    ],
+    across: [
+      { number: 1, clue: 'Adorno real en la cabeza, 6 letras' },
+    ],
+    down: [
+      { number: 2, clue: 'Esposa del rey, 5 letras' },
+    ],
+  },
+  // Puzzle 17 - Tecnología 6x6
+  {
+    title: 'Tecnología',
+    date: '2026-07-09',
+    width: 6,
+    height: 6,
+    grid: [
+      ['R', '.', '.', '.', '.', '.'],
+      ['E', '.', '.', '.', '.', '.'],
+      ['D', 'I', 'S', 'C', 'O', '.'],
+      ['.', '.', '.', '.', '.', '.'],
+      ['.', '.', '.', '.', '.', '.'],
+      ['.', '.', '.', '.', '.', '.'],
+    ],
+    across: [
+      { number: 2, clue: 'Medio de almacenamiento, 5 letras' },
+    ],
+    down: [
+      { number: 1, clue: 'Conexión de computadoras, 3 letras' },
+    ],
+  },
+  // Puzzle 18 - Salud 6x6
+  {
+    title: 'Salud',
+    date: '2026-07-10',
+    width: 6,
+    height: 6,
+    grid: [
+      ['.', 'H', '.', '.', '.', '.'],
+      ['.', 'U', '.', '.', '.', '.'],
+      ['M', 'E', 'N', 'T', 'E', '.'],
+      ['.', 'S', '.', '.', '.', '.'],
+      ['.', 'O', '.', '.', '.', '.'],
+      ['.', '.', '.', '.', '.', '.'],
+    ],
+    across: [
+      { number: 2, clue: 'Parte pensante del ser humano, 5 letras' },
+    ],
+    down: [
+      { number: 1, clue: 'Parte dura del esqueleto, 5 letras' },
+    ],
+  },
+  // Puzzle 19 - Geografía 5x5
+  {
+    title: 'Geografía',
+    date: '2026-07-11',
+    width: 5,
+    height: 5,
+    grid: [
+      ['M', 'A', 'R', '.', '.'],
+      ['.', '.', 'I', '.', '.'],
+      ['.', '.', 'O', '.', '.'],
+      ['.', '.', '.', '.', '.'],
+      ['.', '.', '.', '.', '.'],
+    ],
+    across: [
+      { number: 1, clue: 'Masa de agua salada, 3 letras' },
+    ],
+    down: [
+      { number: 2, clue: 'Corriente de agua, 3 letras' },
+    ],
+  },
+  // Puzzle 20 - Música II 5x5
+  {
+    title: 'Música II',
+    date: '2026-07-12',
+    width: 5,
+    height: 5,
+    grid: [
+      ['.', 'P', '.', '.', '.'],
+      ['.', 'I', '.', '.', '.'],
+      ['B', 'A', 'N', 'D', 'A'],
+      ['.', 'N', '.', '.', '.'],
+      ['.', 'O', '.', '.', '.'],
+    ],
+    across: [
+      { number: 2, clue: 'Grupo de músicos, 5 letras' },
+    ],
+    down: [
+      { number: 1, clue: 'Instrumento de teclas, 5 letras' },
     ],
   },
 ];
