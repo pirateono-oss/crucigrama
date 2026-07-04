@@ -131,6 +131,133 @@ export const puzzles: Puzzle[] = [
       { number: 3, clue: 'Ciudad italiana con canales, 5 letras' },
     ],
   },
+  // Puzzle 6 - Deportes 7x7
+  {
+    title: 'Deportes',
+    date: '2026-06-28',
+    width: 7,
+    height: 7,
+    grid: [
+      ['F', 'U', 'T', 'B', 'O', 'L', '.'],
+      ['.', '.', '.', 'A', '.', '.', '.'],
+      ['.', 'T', 'E', 'N', 'I', 'S', '.'],
+      ['.', '.', '.', 'S', '.', '.', '.'],
+      ['.', 'N', 'A', 'D', 'A', 'R', '.'],
+      ['.', '.', '.', 'O', '.', '.', '.'],
+      ['.', '.', '.', '.', '.', '.', '.'],
+    ],
+    across: [
+      { number: 1, clue: 'Deporte de once jugadores, 6 letras' },
+      { number: 3, clue: 'Deporte de raqueta y red, 5 letras' },
+      { number: 5, clue: 'Actividad en el agua, 5 letras' },
+    ],
+    down: [
+      { number: 1, clue: 'Deporte con cesta y pelota, 4 letras' },
+      { number: 2, clue: 'Deporte de combate con puños, 4 letras' },
+      { number: 4, clue: 'Deporte de equipo con canasta, 5 letras' },
+    ],
+  },
+  // Puzzle 7 - Música 7x7
+  {
+    title: 'Música',
+    date: '2026-06-29',
+    width: 7,
+    height: 7,
+    grid: [
+      ['G', 'U', 'I', 'T', 'A', 'R', 'R'],
+      ['.', '.', '.', 'A', '.', '.', 'A'],
+      ['.', '.', '.', 'M', '.', '.', 'P'],
+      ['.', '.', 'B', 'A', 'T', 'E', 'R'],
+      ['.', '.', '.', 'B', '.', '.', '.'],
+      ['.', '.', '.', 'O', '.', '.', '.'],
+      ['.', '.', '.', 'R', '.', '.', '.'],
+    ],
+    across: [
+      { number: 1, clue: 'Instrumento de cuerdas, 7 letras' },
+      { number: 4, clue: 'Instrumento de percusión con baquetas, 5 letras' },
+    ],
+    down: [
+      { number: 1, clue: 'Instrumento de viento de madera, 4 letras' },
+      { number: 2, clue: 'Instrumento de viento de metal, 4 letras' },
+      { number: 3, clue: 'Instrumento de cuerdas y arco, 4 letras' },
+    ],
+  },
+  // Puzzle 8 - Viajes 7x7
+  {
+    title: 'Viajes',
+    date: '2026-06-30',
+    width: 7,
+    height: 7,
+    grid: [
+      ['.', '.', 'V', 'U', 'E', 'L', 'O'],
+      ['.', '.', '.', '.', 'A', '.', '.'],
+      ['.', 'H', 'O', 'T', 'E', 'L', '.'],
+      ['.', '.', '.', '.', 'I', '.', '.'],
+      ['.', '.', '.', '.', 'M', '.', '.'],
+      ['.', 'M', 'A', 'L', 'E', 'T', 'A'],
+      ['.', '.', '.', '.', 'S', '.', '.'],
+    ],
+    across: [
+      { number: 1, clue: 'Trayecto en avión, 5 letras' },
+      { number: 3, clue: 'Alojamiento para viajeros, 5 letras' },
+      { number: 6, clue: 'Equipaje de mano, 6 letras' },
+    ],
+    down: [
+      { number: 1, clue: 'Documento de viaje, 4 letras' },
+      { number: 2, clue: 'Transporte urbano subterráneo, 4 letras' },
+      { number: 4, clue: 'Medio de transporte de dos ruedas, 4 letras' },
+      { number: 5, clue: 'Lugar de destino, 5 letras' },
+    ],
+  },
+  // Puzzle 9 - Naturaleza 5x5
+  {
+    title: 'Naturaleza',
+    date: '2026-07-01',
+    width: 5,
+    height: 5,
+    grid: [
+      ['F', 'L', 'O', 'R', '.'],
+      ['.', '.', 'A', 'G', 'U'],
+      ['.', '.', 'B', '.', 'N'],
+      ['.', '.', 'O', '.', 'A'],
+      ['.', '.', 'L', '.', 'S'],
+    ],
+    across: [
+      { number: 1, clue: 'Parte colorida de una planta, 4 letras' },
+      { number: 3, clue: 'Líquido esencial para la vida, 3 letras' },
+    ],
+    down: [
+      { number: 1, clue: 'Astro que da luz y calor, 3 letras' },
+      { number: 2, clue: 'Parte verde de una planta, 3 letras' },
+      { number: 4, clue: 'Temporada de calor, 4 letras' },
+    ],
+  },
+  // Puzzle 10 - Profesiones 7x7
+  {
+    title: 'Profesiones',
+    date: '2026-07-02',
+    width: 7,
+    height: 7,
+    grid: [
+      ['M', 'E', 'D', 'I', 'C', 'O', '.'],
+      ['.', '.', '.', '.', 'I', '.', '.'],
+      ['.', '.', 'P', 'I', 'N', 'T', 'O'],
+      ['.', '.', '.', '.', 'E', '.', '.'],
+      ['.', 'B', 'O', 'M', 'B', 'E', 'R'],
+      ['.', '.', '.', '.', 'O', '.', '.'],
+      ['.', '.', '.', '.', '.', '.', '.'],
+    ],
+    across: [
+      { number: 1, clue: 'Profesional de la salud, 6 letras' },
+      { number: 3, clue: 'Artista que crea con colores, 5 letras' },
+      { number: 5, clue: 'Apaga incendios, 6 letras' },
+    ],
+    down: [
+      { number: 1, clue: 'Enseña en la escuela, 5 letras' },
+      { number: 2, clue: 'Construye edificios, 5 letras' },
+      { number: 4, clue: 'Repara automóviles, 5 letras' },
+    ],
+  },
 ];
 
 export function getDailyPuzzle(): Puzzle {
